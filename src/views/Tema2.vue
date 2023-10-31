@@ -5,7 +5,9 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 Titulo de primer nivel
+      h1 Configuración
+
+    p Teniendo como referentes diferentes manuales de servicios de VoIP, se deben tener en cuenta los siguientes aspectos para la configuración:
 
 </template>
 

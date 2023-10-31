@@ -266,9 +266,83 @@
           tr
             td.text-center INFO
             td.text-center Transmitir señales de aplicación a través del canal usado
+
+
+    .row.m-0.align-items-center.justify-content-between.p-4
+      .col-lg-8
+        .p-4
+          p.mb-4 <b>RTP (<i>Real-Time Transport Protocol</i> - Protocolo de transporte en tiempo real):</b> se define como un formato de paquete estándar para el envío de audio y video sobre Internet.
+          p.mb-4 <b>SRTP <i>(Secure Real–Time Transport Protocol)</i>:</b> se trata de un perfil de extensión de RTP que agrega funciones de seguridad, como autenticación de mensaje, confidencialidad y protección de respuesta, para las comunicaciones VoIP.
+          p <b>SDP (<i>Session Description Protocol</i> - Protocolo de Descripción de Sesión):</b> este estándar define los parámetros para el intercambio de media o streaming media entre dos puntos de terminación (endpoints); es usado para describir sesiones multicast en tiempo real; también es necesario para invitaciones, anuncios y toda clase de inicio de sesiones.
+      .col-lg-4.mb-4.mb-lg-0
+        .p-4
+          img(src='@/assets/curso/temas/tema1/img10.svg' alt='')
+
+
     Separador
 
 
+    #t_1_8.titulo-segundo.color-acento-contenido.mb-5
+      h2 1.8  Ventajas y desventajas de la telefonía IP
+
+    p.mb-5 La siguiente tabla condensa las ventajas y desventajas que presenta el servicio de telefonía IP:
+
+
+    .titulo-sexto.color-acento-contenido
+      h5 Tabla 2
+      span Ventajas y desventajas de la telefonía móvil.
+
+    .tabla-a.color-acento-contenido.mb-5
+      table.text-center
+        thead
+          tr
+            th.text-center Ventajas
+            th.text-center Desventajas
+        tbody
+          tr
+            td.text-center Bajo costo en facturas telefónicas
+            td.text-center Transporte de información dividida en paquetes
+          tr
+            td.text-center Oficinas virtuales
+            td.text-center Seguridad es relevante
+          tr
+            td.text-center Dirección centralizada
+            td.text-center Cambia confiabilidad por velocidad
+          tr
+            td.text-center Mejor escalabilidad
+            td.text-center Servicio restringido a redes privadas
+          tr
+            td.text-center Única red convergente con datos, voz, video
+            td.text-center Pérdida de paquetes
+          tr
+            td.text-center Uso eficiente de la red
+            td.text-center Baja calidad de comunicación
+          tr
+            td.text-center Alta calidad de comunicación
+            td.text-center
+
+    Separador
+
+    #t_1_9.titulo-segundo.color-acento-contenido.mb-5
+      h2 1.9  Servicios avanzados de telefonía IP
+
+    p Los principales servicios que se pueden obtener o derivar de la telefonía IP son:
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema1/img11.svg', alt='')
+        h2.text-center.text-white Videoconferencia
+        p.text-white Es una comunicación que se establece a través de una red de telecomunicaciones y que implica la transmisión de sonido e imagen. La videoconferencia es un sistema muy útil para comunicarse con personas que se encuentran en diferentes lugares. Al permitir la transmisión bidireccional de imágenes y sonido, este tipo de comunicación resulta más completa que la telefonía tradicional.
+      .col-md.tarjeta.color-primario-claro.p-5
+        .row.justify-content-center.mb-4
+          .col-6
+            figure
+              img(src='@/assets/curso/temas/tema1/img12.svg', alt='')
+        h2.text-center.text-white Mensajería unificada
+        p.text-white Se centralizan los servicios de mensajería de texto, voz y video en un correo electrónico, facilitando la comunicación personal y/o empresarial entre usuarios. Por ejemplo, Gmail ofrece al usuario comunicación mediante un mensaje de texto entre usuarios o también iniciar una llamada por Meet, desde el mismo correo electrónico.
 </template>
 
 <script>
