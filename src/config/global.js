@@ -1,17 +1,23 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Planificación y configuración de comunicación sobre VoIP',
+    descripcionCurso:
+      'En este componente se estudiarán los conocimientos para planificar y configurar los dispositivos requeridos para establecer comunicación sobre VoIP.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/a1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/a2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/a3.png'),
       },
     ],
   },
@@ -31,28 +37,73 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Introducción para VoIP',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Funcionamiento',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Protocolo H.323 con VoIP',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Elementos necesarios para VoIP',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Compresión de la voz',
+            hash: 't_1_4',
+          },
+          {
+            numero: '1.5',
+            titulo: 'Retardo',
+            hash: 't_1_5',
+          },
+          {
+            numero: '1.6',
+            titulo: '<em>Jitter</em>',
+            hash: 't_1_6',
+          },
+          {
+            numero: '1.7',
+            titulo: 'Telefonía IP',
+            hash: 't_1_7',
+          },
+          {
+            numero: '1.8',
+            titulo: 'Ventajas y desventajas de la telefonía IP',
+            hash: 't_1_8',
+          },
+          {
+            numero: '1.9',
+            titulo: 'Servicios avanzados de telefonía IP',
+            hash: 't_1_9',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Configuración',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Cálculo del número de líneas de voz',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Elementos comunes de la configuración',
+            hash: 't_2_2',
+          },
+        ],
       },
     ],
     subMenu: [
