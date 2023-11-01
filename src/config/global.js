@@ -153,32 +153,79 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1.3. Elementos necesarios para VoIP',
+      referencia:
+        'CISCO Networking Academy. (s.f.). CCNA: Switching, Routing, and Wireless Essentials.',
+      tipo: 'Capítulo de libro',
+      link:
+        'https://www.netacad.com/courses/networking/ccna-switching-routing-wireless-essentials',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2. Configuración.',
+      referencia: 'Kronotek. (s. f.). Configuración de red para VoIP.',
+      tipo: 'Manual',
+      link:
+        'https://silo.tips/download/kronotek-configuracion-de-red-para-voip',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Adaptador de red',
+      significado:
+        'Dispositivo de <i>hardware</i> que se inserta en una estación de trabajo de una red y le permite comunicarse con otros elementos unidos a la red. El adaptador de red recibe y convierte señales entrantes de la red a la estación de trabajo y convierte y envía comunicaciones salientes a la red.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'kbps',
+      significado: ' Kilobits por segundo.',
+    },
+    {
+      termino: 'kBps',
+      significado: ' Kilobytes por segundo. La relación es 1 kB/s = 8 kbps.',
+    },
+    {
+      termino: 'Latencia',
+      significado: 'Retardo o demora de transmisión a través de la red.',
+    },
+    {
+      termino: 'PBX',
+      significado:
+        '<span style="display:none">_</span><em>Private Branch Exchange</em>. Equipo privado que administra las llamadas telefónicas de una empresa.',
+    },
+    {
+      termino: 'SIP',
+      significado:
+        '<span style="display:none">_</span><em>Session Initiation Protocol</em>. Es un protocolo de señalización para inicio de sesión.',
+    },
+    {
+      termino: 'VoIP',
+      significado:
+        'Es un conjunto de recursos que hacen posible que la señal de voz viaje a través de Internet empleando el protocolo IP (Protocolo de Internet).',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Almeida, R. (2015). Implementar una Central Telefónica IP basada en tecnología Open Source en la carrera de Ingeniería en Sistemas Computacionales [Doctoral dissertation, Universidad de Guayaquil. Ecuador]. Repositorio Institucional de la Universidad de Guayaquil.',
+      link: 'http://repositorio.ug.edu.ec/handle/redug/9946',
+    },
+    {
+      referencia: 'Dordoigne, J. y Bardot, Y. (2020). Redes informáticas. ENI.',
+    },
+    {
+      referencia:
+        'Handley, M., Jacobson, V. y Perkins, C. (2006). RFC 4566: SDP: session description protocol. The Internet Society.',
+      link: 'https://datatracker.ietf.org/doc/html/rfc4566',
+    },
+    {
+      referencia:
+        'Matango, F. (2016, 29 marzo). Cuales son los Elementos de la Red – Arquitectura. SERVER VoIP.',
+      link: 'http://www.servervoip.com/blog/arquitectura-red-voip/',
+    },
+    {
+      referencia:
+        'UIT-T. (2003). Serie G Suplemento 39. Serie G: Sistemas y medios de transmisión, sistemas y redes digitales. Unión Internacional de Telecomunicaciones.',
+      link:
+        'https://www.itu.int/rec/dologin_pub.asp?lang=e&id=T-REC-G.Sup39-200310-S!!PDF-S&type=items',
     },
   ],
   creditos: [
@@ -202,8 +249,53 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Carlos Mauricio Tovar Artunduaga',
+          cargo: 'Instructor',
+          centro:
+            'Centro de Servicios y Gestión Empresarial  - Regional Antioquia',
+        },
+        {
+          nombre: 'Jorge Eliécer Loaiza Muñoz',
+          cargo: 'Instructor',
+          centro:
+            'Centro de Diseño e Innovación Tecnológica Industrial  - Regional Antioquia',
+        },
+        {
+          nombre: 'Claudia López Arboleda',
+          cargo: 'Experta temática',
+          centro:
+            'Centro de Teleinformática y Producción Industrial  - Regional Cauca',
+        },
+        {
+          nombre: 'Luz Mila Pacheco Fuentes',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Diseño y Metrología  - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Diseñadora instruccional',
+          centro: 'Centro de Gestión Industrial  - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Julieth Paola Vital López',
+          cargo: 'Corrección de estilo',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica  - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus',
+          cargo: 'Revisora metodológica y pedagógica',
+          centro:
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Uriel Darío González Montoya',
+          cargo: 'Acompañamiento pedagógico',
+          centro: 'Centro Agropecuario La Granja - Regional Tolima',
+        },
+        {
+          nombre: 'Miroslava González Hernández',
+          cargo: 'Diseñadora Instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -213,26 +305,20 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan Daniel Polanco',
           cargo: 'Diseñador de Contenidos Digitales',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Emilsen Alfonso Bautista',
           cargo: 'Desarrollador Fullstack',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro Industrial del Diseño y la Manufactura - Regional Santander',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
+          nombre: 'Daniela Muñoz Bedoya ',
+          cargo: 'Animador y Producción Audiovisual',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -255,7 +341,7 @@ export default {
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para Contenidos Inclusivos y Accesibles',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },

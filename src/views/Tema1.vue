@@ -99,7 +99,7 @@
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             h3 Teléfonos IP
-            p En <i>hardware</i>, son similares a los convencionales. Se conectan a Internet mediante cable. Cambia la forma en que se transmite la voz. Este teléfono se conecta a Internet directamente por el router, hub o cable módem, y las llamadas se realizan y se reciben por Internet. No hace falta tener un computador prendido para usarlo, simplemente un acceso a Internet de banda ancha.  La siguiente figura muestra teléfonos IP inalámbricos y de mesa.
+            p En <i>hardware</i>, son similares a los convencionales. Se conectan a Internet mediante cable. Cambia la forma en que se transmite la voz. Este teléfono se conecta a Internet directamente por el #[em router], hub o cable módem, y las llamadas se realizan y se reciben por Internet. No hace falta tener un computador prendido para usarlo, simplemente un acceso a Internet de banda ancha.  La siguiente figura muestra teléfonos IP inalámbricos y de mesa.
           .col-md-6
             figure
               img(src='@/assets/curso/t1/i1.jpg', alt='Teléfonos IP')
