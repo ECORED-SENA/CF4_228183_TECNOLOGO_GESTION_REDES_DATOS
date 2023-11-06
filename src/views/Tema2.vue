@@ -22,7 +22,7 @@
     p.mb-5  En la siguiente tabla, se pueden evidenciar los parámetros para varios de estos códecs que se pueden utilizar:
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 2.
+      h5 Tabla 3.
       span Características de códecs de voz
     .tabla-a.color-acento-contenido.mb-5
       table.text-center
@@ -100,7 +100,7 @@
             img(src='@/assets/curso/temas/tema2/img3.svg' alt='').py-4
         .col-xl-8.mb-md-0
           .px-3
-            p Para encontrar la cantidad de ancho de banda requerido por el códec de audio, se determina el tamaño (en bytes) del audio contenido en cada paquete. El tamaño de la muestra es un intervalo de tiempo específico del audio; para la mayoría de códecs de audio, el tamaño de la muestra es de 20 milisegundos (ms) por defecto.
+            p Para encontrar la cantidad de ancho de banda requerido por el códec de audio, se determina el tamaño (en <em>bytes</em>) del audio contenido en cada paquete. El tamaño de la muestra es un intervalo de tiempo específico del audio; para la mayoría de códecs de audio, el tamaño de la muestra es de 20 milisegundos (ms) por defecto.
             p Se puede usar la siguiente fórmula para determinar el tamaño del paquete de voz:
             .cajon.color-acento-contenido.p-4.mb-4
               .col-lg-11.mx-auto.text-center
@@ -121,16 +121,16 @@
             img(src='@/assets/curso/temas/tema2/img4.svg' alt='').py-4
         .col-xl-8.mb-md-0
           .px-3
-            p Después de encontrar la cantidad de voz contenida en cada paquete, se calcula a continuación la cantidad de datos contenidos en el encabezado de cada paquete. Los siguientes valores representan la cantidad de bytes del encabezado de cada nivel:
+            p Después de encontrar la cantidad de voz contenida en cada paquete, se calcula a continuación la cantidad de datos contenidos en el encabezado de cada paquete. Los siguientes valores representan la cantidad de <em>bytes</em> del encabezado de cada nivel:
             .col-lg-10.mx-auto.text-center
-              p.codigo Ethernet: 20 bytes
-              p.codigo Frame Relay: 4–6 bytes
-              p.codigo.mb-4 Point-to-Point Protocol (PPP): 6 bytes
+              p.codigo <em>Ethernet</em>: 20 <em>bytes</em>
+              p.codigo <em>Frame Relay</em>: 4–6 <em>bytes</em>
+              p.codigo.mb-4 <em>Point-to-Point Protocol</em> (PPP): 6 <em>bytes</em>
               p Para los niveles de transporte y red del modelo OSI, los valores serán:
-              p.codigo IP: 20 bytes
-              p.codigo UDP: 8 bytes
-              p.codigo.mb-4 Real-Time Transport Protocol (RTP): 12 bytes
-            p Como todos los paquetes de voz usan RTP, UDP e IP, se pueden entonces usar 40 bytes de datos por paquete en los niveles de red y transporte.
+              p.codigo IP: 20 <em>bytes</em>
+              p.codigo UDP: 8 <em>bytes</em>
+              p.codigo.mb-4 <em>Real-Time Transport Protocol</em> (RTP): 12 <em>bytes</em>
+            p Como todos los paquetes de voz usan RTP, UDP e IP, se pueden entonces usar 40 <em>bytes</em> de datos por paquete en los niveles de red y transporte.
       .row.align-items-center(titulo="Paso 3: sumar otros encabezados")
         .col-xl-4.d-none.d-xl-block
           figure.px-3
@@ -139,9 +139,9 @@
           .px-3
             p Por ejemplo, si se está usando VoIP sobre una conexión VPN, los siguientes son los valores de los encabezados basados en este tipo de VPN:
             .col-lg-10.mx-auto.text-center
-              p.codigo GRE/L2TP: 24 bytes
-              p.codigo MPLS: 4 bytes
-              p.codigo IPsec: 50–57 bytes
+              p.codigo GRE/L2TP: 24 <em>bytes</em>
+              p.codigo MPLS: 4 <em>bytes</em>
+              p.codigo IPsec: 50–57 <em>bytes</em>
       .row.align-items-center(titulo="Paso 4: sumar todo lo obtenido en los pasos 1, 2 y 3")
         .col-xl-4.d-none.d-xl-block
           figure.px-3
@@ -151,15 +151,15 @@
             p En este paso se usa la siguiente fórmula:
             .col-lg-10.mx-auto
               p.codigo.text-center.mb-4 Ancho de Banda_Total = Tamaño_Paquete * Paquetes_Por_Segundo
-            p Por ejemplo, si se está usando el códec G.729 con 20 ms de tamaño de la muestra en una red Ethernet, el tamaño del paquete podría darse así:
+            p Por ejemplo, si se está usando el códec G.729 con 20 ms de tamaño de la muestra en una red <em>Ethernet</em>, el tamaño del paquete podría darse así:
             .col-lg-10.mx-auto
-              p.codigo.text-center 20 bytes (Paso 1)
-              p.codigo.text-center 20 bytes (encabezado IP)
-              p.codigo.text-center 8 bytes (encabezado UDP)
-              p.codigo.text-center 12 bytes (encabezado RTP)
-              p.codigo.text-center.mb-3 20 bytes (encabezado | Ethernet)
+              p.codigo.text-center 20 <em>bytes</em> (Paso 1)
+              p.codigo.text-center 20 <em>bytes</em> (encabezado IP)
+              p.codigo.text-center 8 <em>bytes</em> (encabezado UDP)
+              p.codigo.text-center 12 <em>bytes</em> (encabezado RTP)
+              p.codigo.text-center.mb-3 20 <em>bytes</em> (encabezado | <em>Ethernet</em>)
               h4.text-center.texto-acento-contenido -----------------------
-              p.codigo.text-center 80 bytes por paquete
+              p.codigo.text-center 80 <em>bytes</em> por paquete
         .px-3.mt-4
           p Ahora, para encontrar el número de paquetes por segundo, se debe tener en cuenta que cada paquete contiene una muestra de tamaño 20 ms, y como 1 segundo equivale a 1000 milisegundos, se toman:
           .col-lg-8.mx-auto
@@ -167,11 +167,11 @@
           p Esto indica que se tomarán 50 paquetes por segundo para generar un segundo de audio. Con esta información ya se puede encontrar la cantidad de ancho de banda por cada llamada.
           .col-lg-8.mx-auto.text-center
             p.codigo Ancho de Banda_Total = Tamaño_Paquete * Paquetes_Por_Segundo
-            p.codigo Ancho de Banda_Total = 80 bytes por paquete * 50 paquetes por segundo
-            p.codigo.mb-4 Ancho de Banda_Total = 4000 bytes por segundo
-          p Para encontrar los bits por segundo:
+            p.codigo Ancho de Banda_Total = 80 <em>bytes</em> por paquete * 50 paquetes por segundo
+            p.codigo.mb-4 Ancho de Banda_Total = 4000 <em>bytes</em> por segundo
+          p Para encontrar los <em>bit</em>s por segundo:
           .col-lg-8.mx-auto
-            p.codigo.text-center 4000 * 8 = 32000 bits por segundo (32 kbps)
+            p.codigo.text-center 4000 * 8 = 32000 <em>bit</em>s por segundo (32 kbps)
 
 
     h3.mb-4 Cálculo del número de agentes simultáneos
@@ -196,8 +196,8 @@
     p.mb-5 La siguiente tabla muestra la cantidad de agentes que puede soportar cada línea según la velocidad de subida disponible:
 
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 3.
-      span Agentes vs. velocidad
+      h5 Tabla 4.
+      span Agentes vs. Velocidad
     .tabla-a.color-acento-contenido.mb-5
       table.text-center
         thead
@@ -281,7 +281,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 5
           span Dispositivos comunes VoIP
-        img(src='@/assets/curso/temas/tema2/img9.svg' alt='Gráfico en el que se muestran los elementos comunes del protocolo VoIP como son: el router, el modem, el software voIP y la red de internet.').mx-auto.mb-2
+        img(src='@/assets/curso/temas/tema2/fig5.svg' alt='Gráfico en el que se muestran los elementos comunes del protocolo VoIP como son: el router, el modem, el software voIP y la red de internet.').mx-auto.mb-2
         figcaptio Nota. Adaptada de areatecnología (s.f)
 </template>
 

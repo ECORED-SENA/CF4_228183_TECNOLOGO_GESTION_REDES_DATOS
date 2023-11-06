@@ -17,6 +17,9 @@
           span Metodología VOIP.
         img(src='@/assets/curso/temas/tema1/img1.svg' alt='Proceso de transformación de la voz en datos digitales de un punto a otro.').mx-auto.mb-2
 
+
+    Separador
+
     #t_1_1.titulo-segundo.color-acento-contenido.mt-5
       h2 1.1  Funcionamiento
 
@@ -41,8 +44,8 @@
               .col-auto
                 img(src="@/assets/curso/temas/tema1/img3.svg" style="max-width:160px")
               .col
-                h5 Acceso local
-                p No es necesario el Internet. Como ejemplo Como ejemplo, podría ser llamar desde USA a Colombia. Aquí se marca el número local que ofrece el proveedor de VoIP, una grabación solicita el ingreso del usuario y el número telefónico del destino a llamar, el tramo internacional de la llamada será por VoIP, llegando así al país de destino simplemente habiendo llamado a un número local del país de origen.
+                h5 Acceso VoIP
+                p Se necesita una conexión a Internet. Se puede utilizar cualquier dispositivo conectado a Internet, como un PC, un teléfono IP, un smartphone o tablet, o también se puede conectar un teléfono analógico al router, por medio de un adaptador IP o también llamado ATA.
 
       .bg-fff.p-4
         .row.align-items-center
@@ -66,12 +69,14 @@
       .col
         p De acuerdo con Dordoigne y Bardot (2020), la serie de protocolos H32x de la Unión Internacional de Telecomunicaciones (UIT) está dirigida a estandarizar las diferentes funciones de videoconferencia, combinando audio, video y transferencia de archivos. En 1996 nace la voz por IP, por medio de H.323, capaz de basarse en diferentes protocolos de comunicación, códec de audio y de video. A continuación se presenta un esquema del protocolo H.323.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col-xl-10
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2
           span Protocolo H.323.
         img(src='@/assets/curso/temas/tema1/img6.svg' alt='Esquema del protocolo H.323. en el que se muestra la salida de una terminal de un computador hasta llegar a otra igual, por medio de una conexión LAN.').mx-auto.mb-2
+
+        p.text-small.mt-4 Proceso del protocolo H.323 usando una conexión LAN. Inicia en un computador con un Gateway H.323. pasa a un Gatekeeper, luego a un teléfono digital y después, a una IP Router. Esta última se conecta con la IP Router de destina, la cual envía la información al teléfono digital y finaliza en el MCU H.323.
 
     p Su utilización es posible tanto en redes locales, en las que el ancho de banda es grande, como en Internet, que se caracteriza por velocidades menores y mayores retrasos en la transmisión. Las dos partes de la comunicación telefónica pueden utilizar diferentes terminales que cumplan la norma H.323.
 
@@ -82,7 +87,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img7c.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Por ejemplo, si los dos extremos utilizan un PC, basta que un software de telefonía implemente el protocolo H.323 para dirigir los paquetes, gracias a la dirección IP de cada equipo. Todo el tráfico transita por la red local o Internet. El principio es el mismo si los equipos telefónicos son digitales, como en una comunicación en voz por IP en la empresa, y en este caso se asocia un número de teléfono a la dirección IP del terminal.
+        p.mb-0 Por ejemplo, si los dos extremos utilizan un PC, basta que un #[em software] de telefonía implemente el protocolo H.323 para dirigir los paquetes, gracias a la dirección IP de cada equipo. Todo el tráfico transita por la red local o Internet. El principio es el mismo si los equipos telefónicos son digitales, como en una comunicación en voz por IP en la empresa, y en este caso se asocia un número de teléfono a la dirección IP del terminal.
         br
         br
         | Al contrario, si uno de los terminales, o los dos, utilizan un teléfono clásico, una puerta de enlace debe realizar la conexión entre el transporte informático y el telefónico, asegurando así la interconexión entre los dos tipos de redes.
@@ -99,16 +104,16 @@
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             h3 Teléfonos IP
-            p En <i>hardware</i>, son similares a los convencionales. Se conectan a Internet mediante cable. Cambia la forma en que se transmite la voz. Este teléfono se conecta a Internet directamente por el #[em router], hub o cable módem, y las llamadas se realizan y se reciben por Internet. No hace falta tener un computador prendido para usarlo, simplemente un acceso a Internet de banda ancha.  La siguiente figura muestra teléfonos IP inalámbricos y de mesa.
+            p En <i>hardware</i>, son similares a los convencionales. Se conectan a Internet mediante cable. Cambia la forma en que se transmite la voz. Este teléfono se conecta a Internet directamente por el #[em router], #[em hub] o cable módem, y las llamadas se realizan y se reciben por Internet. No hace falta tener un computador prendido para usarlo, simplemente un acceso a Internet de banda ancha.  La siguiente figura muestra teléfonos IP inalámbricos y de mesa.
           .col-md-6
             figure
               img(src='@/assets/curso/t1/i1.jpg', alt='Teléfonos IP')
               figcaption Fuente: DIARIODEHUELVA
-      .py-3.py-md-4(titulo="Softphone")
+      .py-3.py-md-4(titulo="<em>Softphone</em>")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             h3 Softphone
-            p Hace referencia a un <i>software</i> o programa que permite emular un teléfono convencional utilizando un computador, y permite así realizar llamadas a cualquier destino y dispositivo terminal. Un <i>softphone</i> hace parte de un entorno VoIP y puede tener como base el estándar SIP Proxy. En la figura, se puede observar un ejemplo.
+            p Hace referencia a un <i>software</i> o programa que permite emular un teléfono convencional utilizando un computador, y permite así realizar llamadas a cualquier destino y dispositivo terminal. Un <i>softphone</i> hace parte de un entorno VoIP y puede tener como base el estándar <em>SIP Proxy</em>. En la figura, se puede observar un ejemplo.
           .col-md-6
             figure
               img(src='@/assets/curso/t1/i2.jpg', alt='Fuente: Blog 3cx')
@@ -117,25 +122,25 @@
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             h3 Adaptador de Teléfono Analógico ATA
-            p El Adaptador de Teléfono Analógico o ATA <i>(Analog Telephone Adapter)</i> permite conectar un teléfono convencional a la red IP, por medio del protocolo SIP o IAX; trabaja como un adaptador que, a través del puerto Ethernet, convierte el teléfono analógico en uno IP.
+            p El Adaptador de Teléfono Analógico o ATA <i>(Analog Telephone Adapter)</i> permite conectar un teléfono convencional a la red IP, por medio del protocolo SIP o IAX; trabaja como un adaptador que, a través del puerto <em>Ethernet</em>, convierte el teléfono analógico en uno IP.
           .col-md-6
             figure
               img(src='@/assets/curso/t1/i3.jpg', alt='Adaptador de teléfono analógico ATA')
               figcaption Fuente: Intelbras
-      .py-3.py-md-4(titulo="Gateway")
+      .py-3.py-md-4(titulo="<em>Gateway</em>")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h3 Gateway
-            p Sirve para conectar la red telefónica convencional con la red IP y es transparente para el usuario. Cuando se desea realizar una llamada hacia una red IP, es el gateway quien se encarga de convertir la señal analógica en digital y viceversa.
+            h3 #[em Gateway]
+            p Sirve para conectar la red telefónica convencional con la red IP y es transparente para el usuario. Cuando se desea realizar una llamada hacia una red IP, es el #[em gateway] quien se encarga de convertir la señal analógica en digital y viceversa.
           .col-md-6
             figure
               img(src='@/assets/curso/t1/i4.jpg', alt='Gateway')
               figcaption Fuente: Techslang
-      .py-3.py-md-4(titulo="Gatekeepers")
+      .py-3.py-md-4(titulo="<em>Gatekeepers</em>")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h3 Gatekeepers
-            p Son el centro de la infraestructura VoIP y reemplazan las centrales actuales. Generalmente, se implementan en software y todas las comunicaciones pasarán por él. Se considera como el cerebro de la red VoIP.
+            h3 #[em Gatekeepers]
+            p Son el centro de la infraestructura VoIP y reemplazan las centrales actuales. Generalmente, se implementan en #[em software] y todas las comunicaciones pasarán por él. Se considera como el cerebro de la red VoIP.
           .col-md-6
             figure
               img(src='@/assets/curso/t1/i5.jpg', alt='Gatekeepers')
@@ -189,7 +194,7 @@
                 img(src="@/assets/curso/temas/tema1/5.svg")
               .col
                 h5 G.723.1
-                p Describe una técnica de compresión que se puede utilizar para comprimir voz u otros componentes de señales de audio de servicios multimedia a una baja velocidad de bit, como parte de la familia de estándares H.324. Dos velocidades de bit están asociadas con el codificador: 5.3 y 6.3 kbps. (p.31)
+                p Describe una técnica de compresión que se puede utilizar para comprimir voz u otros componentes de señales de audio de servicios multimedia a una baja velocidad de <em>bit</em>, como parte de la familia de estándares H.324. Dos velocidades de <em>bit</em> están asociadas con el codificador: 5.3 y 6.3 kbps. (p.31)
 
     Separador
 
@@ -199,7 +204,7 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Qgal2WdrDJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Retardos Jitter
+      figcaption Video. Planificación y configuración de comunicación sober VoIP: Retardos <em>jitter</em>
 
     #t_1_6.titulo-segundo.color-acento-contenido.mb-5
       h2 1.6.  #[em Jitter]
@@ -211,7 +216,7 @@
         .bloque-texto-b.color-azul-clarito.p-4
           .bloque-texto-b__texto
             i.fas.fa-quote-left
-            h2.mb-0 El jitter entre el punto inicial y final de la comunicación debería ser inferior a 100 ms; si el valor es menor a 100 ms, el jitter puede ser compensado de manera apropiada; en caso contrario, debería ser minimizado.
+            h2.mb-0 El <em>jitter</em> entre el punto inicial y final de la comunicación debería ser inferior a 100 ms; si el valor es menor a 100 ms, el <em>jitter</em> puede ser compensado de manera apropiada; en caso contrario, debería ser minimizado.
             i.fas.fa-quote-right
 
     Separador
@@ -226,14 +231,14 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 3
           span Telefonía IP
-        img(src='@/assets/curso/temas/tema1/img6.svg' alt='Esquema del protocolo H.323. en el que se muestra la salida de una terminal de un computador hasta llegar a otra igual, por medio de una conexión LAN.').mx-auto.mb-2
+        img(src='@/assets/curso/temas/tema1/fig17.svg' alt='Esquema de una telefonía IP por medio de una red LAN, en la que se involucra: Teléfonos IP, la red privada, Software IP y PSTN.').mx-auto.mb-2
 
 
     h3 Protocolos para telefonía IP
 
     p Los protocolos más manejados se encuentran a continuación:
 
-    p #[strong SIP (#[em Session Initiation Protocol]) (Protocolo de Iniciación de Sesión)]: es un protocolo de señalización definido por el “Internet Engineering Task Force”, o IETF, que permite el establecimiento, la liberación y la modificación de sesiones multimedia donde se lleva a cabo el proceso de sesión con los siguientes estados y señales:
+    p #[strong SIP (#[em Session Initiation Protocol]) (Protocolo de Iniciación de Sesión)]: es un protocolo de señalización definido por el <em>“Internet Engineering Task Force”</em>, o IETF, que permite el establecimiento, la liberación y la modificación de sesiones multimedia donde se lleva a cabo el proceso de sesión con los siguientes estados y señales:
 
     .titulo-sexto.color-acento-contenido
       h5 Tabla 1
@@ -247,25 +252,25 @@
         tbody
           tr
             td.text-center REGISTER
-            td.text-center Registrar un dispositivo
+            td.text-center Registrar un dispositivo.
           tr
             td.text-center INVITE
-            td.text-center Iniciar la llamada
+            td.text-center Iniciar la llamada.
           tr
             td.text-center BYE
-            td.text-center Terminar la llamada establecida
+            td.text-center Terminar la llamada establecida.
           tr
             td.text-center ACK
-            td.text-center Notificar el recibo de un mensaje
+            td.text-center Notificar el recibo de un mensaje.
           tr
             td.text-center CANCEL
-            td.text-center Anular llamada aún no establecida
+            td.text-center Anular llamada aún no establecida.
           tr
             td.text-center OPTIONS
-            td.text-center Métodos disponibles, alcance, latencia de un dispositivo
+            td.text-center Métodos disponibles, alcance, latencia de un dispositivo.
           tr
             td.text-center INFO
-            td.text-center Transmitir señales de aplicación a través del canal usado
+            td.text-center Transmitir señales de aplicación a través del canal usado.
 
 
     .row.m-0.align-items-center.justify-content-between.p-4
@@ -273,7 +278,7 @@
         .p-4
           p.mb-4 <b>RTP (<i>Real-Time Transport Protocol</i> - Protocolo de transporte en tiempo real):</b> se define como un formato de paquete estándar para el envío de audio y video sobre Internet.
           p.mb-4 <b>SRTP <i>(Secure Real–Time Transport Protocol)</i>:</b> se trata de un perfil de extensión de RTP que agrega funciones de seguridad, como autenticación de mensaje, confidencialidad y protección de respuesta, para las comunicaciones VoIP.
-          p <b>SDP (<i>Session Description Protocol</i> - Protocolo de Descripción de Sesión):</b> este estándar define los parámetros para el intercambio de media o streaming media entre dos puntos de terminación (endpoints); es usado para describir sesiones multicast en tiempo real; también es necesario para invitaciones, anuncios y toda clase de inicio de sesiones.
+          p <b>SDP (<i>Session Description Protocol</i> - Protocolo de Descripción de Sesión):</b> este estándar define los parámetros para el intercambio de media o #[em streaming] media entre dos puntos de terminación (#[em endpoints]); es usado para describir sesiones #[em multicast] en tiempo real; también es necesario para invitaciones, anuncios y toda clase de inicio de sesiones.
       .col-lg-4.mb-4.mb-lg-0
         .p-4
           img(src='@/assets/curso/temas/tema1/img10.svg' alt='')
@@ -300,25 +305,25 @@
             th.text-center Desventajas
         tbody
           tr
-            td.text-center Bajo costo en facturas telefónicas
-            td.text-center Transporte de información dividida en paquetes
+            td.text-center Bajo costo en facturas telefónicas.
+            td.text-center Transporte de información dividida en paquetes.
           tr
-            td.text-center Oficinas virtuales
-            td.text-center Seguridad es relevante
+            td.text-center Oficinas virtuales.
+            td.text-center Seguridad es relevante.
           tr
-            td.text-center Dirección centralizada
-            td.text-center Cambia confiabilidad por velocidad
+            td.text-center Dirección centralizada.
+            td.text-center Cambia confiabilidad por velocidad.
           tr
-            td.text-center Mejor escalabilidad
-            td.text-center Servicio restringido a redes privadas
+            td.text-center Mejor escalabilidad.
+            td.text-center Servicio restringido a redes privadas.
           tr
-            td.text-center Única red convergente con datos, voz, video
-            td.text-center Pérdida de paquetes
+            td.text-center Única red convergente con datos, voz, video.
+            td.text-center Pérdida de paquetes.
           tr
-            td.text-center Uso eficiente de la red
-            td.text-center Baja calidad de comunicación
+            td.text-center Uso eficiente de la red.
+            td.text-center Baja calidad de comunicación.
           tr
-            td.text-center Alta calidad de comunicación
+            td.text-center Alta calidad de comunicación.
             td.text-center
 
     Separador

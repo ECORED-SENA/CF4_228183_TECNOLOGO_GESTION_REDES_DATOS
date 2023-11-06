@@ -267,22 +267,6 @@ export default {
             'Centro de Teleinformática y Producción Industrial  - Regional Cauca',
         },
         {
-          nombre: 'Luz Mila Pacheco Fuentes',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Diseño y Metrología  - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Silvia Milena Sequeda Cárdenas',
-          cargo: 'Diseñadora instruccional',
-          centro: 'Centro de Gestión Industrial  - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Julieth Paola Vital López',
-          cargo: 'Corrección de estilo',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica  - Regional Distrito Capital',
-        },
-        {
           nombre: 'Ana Catalina Córdoba Sus',
           cargo: 'Revisora metodológica y pedagógica',
           centro:
