@@ -1,4 +1,4 @@
-<template lang="pug">
+npm<template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
@@ -36,7 +36,7 @@
                 img(src="@/assets/curso/temas/tema1/img2.svg" style="max-width:160px")
               .col
                 h5 Acceso local
-                p No es necesario el Internet. Como ejemplo Como ejemplo, podría ser llamar desde USA a Colombia. Aquí se marca el número local que ofrece el proveedor de VoIP, una grabación solicita el ingreso del usuario y el número telefónico del destino a llamar, el tramo internacional de la llamada será por VoIP, llegando así al país de destino simplemente habiendo llamado a un número local del país de origen.
+                p No es necesario el Internet. Como ejemplo, podría ser llamar desde USA a Colombia. Aquí se marca el número local que ofrece el proveedor de VoIP, una grabación solicita el ingreso del usuario y el número telefónico del destino a llamar, el tramo internacional de la llamada será por VoIP, llegando así al país de destino simplemente habiendo llamado a un número local del país de origen.
 
         .col-xl-6
           .bg-CCBCFE.p-4.rounded-20
@@ -45,7 +45,7 @@
                 img(src="@/assets/curso/temas/tema1/img3.svg" style="max-width:160px")
               .col
                 h5 Acceso VoIP
-                p Se necesita una conexión a Internet. Se puede utilizar cualquier dispositivo conectado a Internet, como un PC, un teléfono IP, un smartphone o tablet, o también se puede conectar un teléfono analógico al router, por medio de un adaptador IP o también llamado ATA.
+                p Se necesita una conexión a Internet. Se puede utilizar cualquier dispositivo conectado a Internet, como un PC, un teléfono IP, un <i>smartphone o tablet</i>, o también se puede conectar un teléfono analógico al <i>router</i>, por medio de un adaptador IP o también llamado ATA.
 
       .bg-fff.p-4
         .row.align-items-center
