@@ -268,11 +268,11 @@
 
                 li.mb-4
                   i.fas.fa-project-diagram.texto-acento-contenido.me-4
-                  span Todo el tráfico de voz va dirigido hacia un PBX online con una dirección IP concreta para distinguir el tráfico de voz del resto del tráfico.
+                  span Todo el tráfico de voz va dirigido hacia un PBX #[em online] con una dirección IP concreta para distinguir el tráfico de voz del resto del tráfico.
 
                 li
                   i.fas.fa-project-diagram.texto-acento-contenido.me-4
-                  span La separación del tráfico de voz la realizan #[em routers], desviando todo el tráfico dirigido a la dirección IP del PBX online a una línea dedicada de voz.
+                  span La separación del tráfico de voz la realizan #[em routers], desviando todo el tráfico dirigido a la dirección IP del PBX #[em online] a una línea dedicada de voz.
 
     p.mb-5 La siguiente figura muestra los diferentes dispositivos que se pueden configurar y que son comunes a la red VoIP.
 

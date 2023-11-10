@@ -5,7 +5,7 @@ npm<template lang="pug">
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Fundamentos del monitoreo SNMP
+      h1 Introducción para VoIP
 
 
     p.mb-5 El término VoIP significa voz sobre protocolo de Internet. Es un término con el que se designa una tecnología que transforma las señales de audio analógicas en datos digitales para transmitirlos por Internet, donde otro dispositivo los convierte nuevamente para que se escuche en forma de audio para el receptor. En la siguiente figura, se puede observar el recorrido de la voz.
@@ -104,7 +104,7 @@ npm<template lang="pug">
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             h3 Teléfonos IP
-            p En <i>hardware</i>, son similares a los convencionales. Se conectan a Internet mediante cable. Cambia la forma en que se transmite la voz. Este teléfono se conecta a Internet directamente por el #[em router], #[em hub] o cable módem, y las llamadas se realizan y se reciben por Internet. No hace falta tener un computador prendido para usarlo, simplemente un acceso a Internet de banda ancha.  La siguiente figura muestra teléfonos IP inalámbricos y de mesa.
+            p En <i>hardware</i>, son similares a los convencionales. Se conectan a Internet mediante cable. Cambia la forma en que se transmite la voz. Este teléfono se conecta a Internet directamente por el #[em router], #[em hub] o cable módem, y las llamadas se realizan y se reciben por Internet. No hace falta tener un computador prendido para usarlo, simplemente un acceso a Internet de banda ancha.
           .col-md-6
             figure
               img(src='@/assets/curso/t1/i1.jpg', alt='Teléfonos IP')
@@ -113,7 +113,7 @@ npm<template lang="pug">
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             h3 Softphone
-            p Hace referencia a un <i>software</i> o programa que permite emular un teléfono convencional utilizando un computador, y permite así realizar llamadas a cualquier destino y dispositivo terminal. Un <i>softphone</i> hace parte de un entorno VoIP y puede tener como base el estándar <em>SIP Proxy</em>. En la figura, se puede observar un ejemplo.
+            p Hace referencia a un <i>software</i> o programa que permite emular un teléfono convencional utilizando un computador, y permite así realizar llamadas a cualquier destino y dispositivo terminal. Un <i>softphone</i> hace parte de un entorno VoIP y puede tener como base el estándar <em>SIP Proxy</em>.
           .col-md-6
             figure
               img(src='@/assets/curso/t1/i2.jpg', alt='Fuente: Blog 3cx')
@@ -202,9 +202,10 @@ npm<template lang="pug">
       h2 1.5.  Retardo
 
     figure.mb-5
+    p A continuación se presenta en qué consisten los retardos jitter en la planificación y la configuración de la comunicación sobre VoIP.
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/Qgal2WdrDJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Planificación y configuración de comunicación sober VoIP: Retardos <em>jitter</em>
+      figcaption Video. Planificación y configuración de comunicación sobre VoIP: Retardos <em>jitter</em>
 
     #t_1_6.titulo-segundo.color-acento-contenido.mb-5
       h2 1.6.  #[em Jitter]
