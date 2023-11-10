@@ -137,12 +137,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        download: 'downloads/CF04_228183_DU.pdf',
       },
       {
         icono: 'far fa-registered',

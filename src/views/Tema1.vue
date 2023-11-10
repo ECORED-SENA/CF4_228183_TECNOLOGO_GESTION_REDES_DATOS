@@ -107,8 +107,7 @@ npm<template lang="pug">
             p En <i>hardware</i>, son similares a los convencionales. Se conectan a Internet mediante cable. Cambia la forma en que se transmite la voz. Este teléfono se conecta a Internet directamente por el #[em router], #[em hub] o cable módem, y las llamadas se realizan y se reciben por Internet. No hace falta tener un computador prendido para usarlo, simplemente un acceso a Internet de banda ancha.
           .col-md-6
             figure
-              img(src='@/assets/curso/t1/i1.jpg', alt='Teléfonos IP')
-              figcaption Fuente: DIARIODEHUELVA
+              img(src='@/assets/curso/temas/tema1/telefono_ip.jpeg', alt='')
       .py-3.py-md-4(titulo="<em>Softphone</em>")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -116,8 +115,7 @@ npm<template lang="pug">
             p Hace referencia a un <i>software</i> o programa que permite emular un teléfono convencional utilizando un computador, y permite así realizar llamadas a cualquier destino y dispositivo terminal. Un <i>softphone</i> hace parte de un entorno VoIP y puede tener como base el estándar <em>SIP Proxy</em>.
           .col-md-6
             figure
-              img(src='@/assets/curso/t1/i2.jpg', alt='Fuente: Blog 3cx')
-              figcaption Fuente: Blog 3cx
+              img(src='@/assets/curso/temas/tema1/sftp_phone.jpeg', alt='')
       .py-3.py-md-4(titulo="Adaptador de Teléfono Analógico ATA")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -125,8 +123,8 @@ npm<template lang="pug">
             p El Adaptador de Teléfono Analógico o ATA <i>(Analog Telephone Adapter)</i> permite conectar un teléfono convencional a la red IP, por medio del protocolo SIP o IAX; trabaja como un adaptador que, a través del puerto <em>Ethernet</em>, convierte el teléfono analógico en uno IP.
           .col-md-6
             figure
-              img(src='@/assets/curso/t1/i3.jpg', alt='Adaptador de teléfono analógico ATA')
-              figcaption Fuente: Intelbras
+              img(src='@/assets/curso/temas/tema1/ata.jpeg', alt='')
+
       .py-3.py-md-4(titulo="<em>Gateway</em>")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -134,8 +132,8 @@ npm<template lang="pug">
             p Sirve para conectar la red telefónica convencional con la red IP y es transparente para el usuario. Cuando se desea realizar una llamada hacia una red IP, es el #[em gateway] quien se encarga de convertir la señal analógica en digital y viceversa.
           .col-md-6
             figure
-              img(src='@/assets/curso/t1/i4.jpg', alt='Gateway')
-              figcaption Fuente: Techslang
+              img(src='@/assets/curso/temas/tema1/gateway.jpeg', alt='')
+
       .py-3.py-md-4(titulo="<em>Gatekeepers</em>")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
@@ -143,8 +141,8 @@ npm<template lang="pug">
             p Son el centro de la infraestructura VoIP y reemplazan las centrales actuales. Generalmente, se implementan en #[em software] y todas las comunicaciones pasarán por él. Se considera como el cerebro de la red VoIP.
           .col-md-6
             figure
-              img(src='@/assets/curso/t1/i5.jpg', alt='Gatekeepers')
-              figcaption Fuente: Vecteezy
+              img(src='@/assets/curso/temas/tema1/gatekeepers.jpeg', alt='')
+
 
     Separador
 
