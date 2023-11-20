@@ -36,7 +36,7 @@ npm<template lang="pug">
                 img(src="@/assets/curso/temas/tema1/img2.svg" style="max-width:160px")
               .col
                 h5 Acceso local
-                p No es necesario el Internet. Como ejemplo, podría ser llamar desde USA a Colombia. Aquí se marca el número local que ofrece el proveedor de VoIP, una grabación solicita el ingreso del usuario y el número telefónico del destino a llamar, el tramo internacional de la llamada será por VoIP, llegando así al país de destino simplemente habiendo llamado a un número local del país de origen.
+                p No es necesario el Internet. Como ejemplo, podría ser, llamar desde USA a Colombia. Aquí se marca el número local que ofrece el proveedor de VoIP, una grabación solicita el ingreso del usuario y el número telefónico del destino a llamar, el tramo internacional de la llamada será por VoIP, llegando así al país de destino simplemente habiendo llamado a un número local del país de origen.
 
         .col-xl-6
           .bg-CCBCFE.p-4.rounded-20
@@ -76,7 +76,7 @@ npm<template lang="pug">
           span Protocolo H.323.
         img(src='@/assets/curso/temas/tema1/img6.svg' alt='Esquema del protocolo H.323. en el que se muestra la salida de una terminal de un computador hasta llegar a otra igual, por medio de una conexión LAN.').mx-auto.mb-2
 
-        p.text-small.mt-4 Proceso del protocolo H.323 usando una conexión LAN. Inicia en un computador con un Gateway H.323. pasa a un Gatekeeper, luego a un teléfono digital y después, a una IP Router. Esta última se conecta con la IP Router de destina, la cual envía la información al teléfono digital y finaliza en el MCU H.323.
+        p.text-small.mt-4 Proceso del protocolo H.323 usando una conexión LAN. Inicia en un computador con un Gateway H.323. pasa a un Gatekeeper, luego a un teléfono digital y después, a una IP Router. Esta última se conecta con la IP Router de destino, la cual envía la información al teléfono digital y finaliza en el MCU H.323.
 
     p Su utilización es posible tanto en redes locales, en las que el ancho de banda es grande, como en Internet, que se caracteriza por velocidades menores y mayores retrasos en la transmisión. Las dos partes de la comunicación telefónica pueden utilizar diferentes terminales que cumplan la norma H.323.
 

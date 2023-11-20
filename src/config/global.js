@@ -206,7 +206,6 @@ export default {
     {
       referencia:
         'Almeida, R. (2015). Implementar una Central Telefónica IP basada en tecnología Open Source en la carrera de Ingeniería en Sistemas Computacionales [Doctoral dissertation, Universidad de Guayaquil. Ecuador]. Repositorio Institucional de la Universidad de Guayaquil.',
-      link: 'http://repositorio.ug.edu.ec/handle/redug/9946',
     },
     {
       referencia: 'Dordoigne, J. y Bardot, Y. (2020). Redes informáticas. ENI.',
