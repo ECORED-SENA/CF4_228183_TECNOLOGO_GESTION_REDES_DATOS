@@ -266,17 +266,6 @@ export default {
             'Centro de Teleinformática y Producción Industrial  - Regional Cauca',
         },
         {
-          nombre: 'Ana Catalina Córdoba Sus',
-          cargo: 'Revisora metodológica y pedagógica',
-          centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
-        },
-        {
-          nombre: 'Uriel Darío González Montoya',
-          cargo: 'Acompañamiento pedagógico',
-          centro: 'Centro Agropecuario La Granja - Regional Tolima',
-        },
-        {
           nombre: 'Miroslava González Hernández',
           cargo: 'Diseñadora Instruccional',
           centro:
