@@ -1,0 +1,30 @@
+<svg id="Grupo_1069279" data-name="Grupo 1069279" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.604" height="86.604" viewBox="0 0 86.604 86.604">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.076" cy="0.019" r="1.465" gradientTransform="translate(0.001)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f6f6f7"/>
+      <stop offset="0.477" stop-color="#f9f9fa"/>
+      <stop offset="0.715" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_54512" data-name="Grupo 54512" transform="translate(0 0)">
+    <g id="Grupo_42274" data-name="Grupo 42274" transform="translate(0 0)">
+      <g id="Grupo_18423" data-name="Grupo 18423">
+        <g id="Grupo_18421" data-name="Grupo 18421">
+          <g id="Grupo_18420" data-name="Grupo 18420">
+            <g id="Grupo_18419" data-name="Grupo 18419">
+              <path id="Trazado_40936" data-name="Trazado 40936" d="M281.227,2189.022a43.3,43.3,0,1,1-43.3-43.3A43.3,43.3,0,0,1,281.227,2189.022Z" transform="translate(-194.623 -2145.721)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+        <path id="Trazado_40937" data-name="Trazado 40937" d="M280.975,2188.747a43.3,43.3,0,1,0-43.3,43.3A43.131,43.131,0,0,0,280.975,2188.747Z" transform="translate(-194.371 -2145.446)" fill="url(#radial-gradient)"/>
+        <path id="Trazado_40938" data-name="Trazado 40938" d="M268.549,2186.586a33.052,33.052,0,1,0-33.052,33.052A32.93,32.93,0,0,0,268.549,2186.586Z" transform="translate(-192.063 -2143.141)" fill="none" stroke="#01c3fd" stroke-miterlimit="10" stroke-width="4"/>
+        <g id="Grupo_18422" data-name="Grupo 18422" transform="translate(7.671 24.311)">
+          <path id="Trazado_40939" data-name="Trazado 40939" d="M275.1,2164.488a43.307,43.307,0,0,1-74.554,43.123,43.17,43.17,0,0,0,74.554-43.123Z" transform="translate(-200.545 -2164.488)" fill="#eceef0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Grupo_56681" data-name="Grupo 56681" transform="translate(33.303 22.302)">
+    <text id="_3" data-name="3" transform="translate(0 0)" fill="#1e5af9" font-size="35" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="37">3</tspan></text>
+  </g>
+</svg>
