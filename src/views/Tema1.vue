@@ -202,7 +202,7 @@ npm<template lang="pug">
     figure.mb-5
     p A continuación se presenta en qué consisten los retardos jitter en la planificación y la configuración de la comunicación sobre VoIP.
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Qgal2WdrDJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/j3-XHZ5u_ns?si=U7_8pmRhuHjLvTPp" title="Planificación y configuración de comunicación sobre VoIP: Retardos jitter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Planificación y configuración de comunicación sobre VoIP: Retardos <em>jitter</em>
 
     #t_1_6.titulo-segundo.color-acento-contenido.mb-5
